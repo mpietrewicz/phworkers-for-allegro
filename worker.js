@@ -20,11 +20,11 @@ phantom.start(function(startErr) {
 		return console.error('Error while starting workers:', startErr);
 	}
 
-	// phantom.execute({ url: "http://www.google.pl/" }, function(err, res) {
-	// 	if (err) {
-	// 		return console.error('Error while executing:', err);
-	// 	}
-	//
-	// 	// console.log(res.title);
-	// });
+	phantom.execute({ url: "http://www.google.pl/" }, function(err, res) {
+		if (err) {
+			return console.error('Error while executing:', err);
+		}
+
+		console.log(res.title);
+	});
 });
