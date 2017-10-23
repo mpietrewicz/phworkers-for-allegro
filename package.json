@@ -1,0 +1,37 @@
+{
+  "name": "phantom-workers",
+  "version": "0.4.2",
+  "author": {
+    "name": "Jan Blaha",
+    "email": "jan.blaha@hotmail.com"
+  },
+  "contributors": [],
+  "description": "Run phantomjs scripts in managed workers",
+  "keywords": [
+    "phantomjs",
+    "workers"
+  ],
+  "homepage": "https://github.com/pofider/phantom-workers",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pofider/phantom-workers.git"
+  },
+  "dependencies": {
+    "net-cluster": "0.0.2",
+    "object-assign": "4.1.1",
+    "portscanner": "1.0.0",
+    "underscore": "1.8.2"
+  },
+  "optionalDependencies": {
+    "phantomjs": "1.9.15"
+  },
+  "devDependencies": {
+    "mocha": "2.1.0",
+    "should": "5.0.1"
+  },
+  "scripts": {
+    "test": "mocha test/test.js --timeout 8000"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
