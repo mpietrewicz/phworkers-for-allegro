@@ -10,9 +10,9 @@ var phantom = require("phantom-workers")({
 	  javascriptEnabled: false
 	},
 	timeout: 5000,
-	numberOfWorkers: 10,
-	portLeftBoundary: 60800,
-	portRightBoundary: 60900
+	numberOfWorkers: 10
+	// portLeftBoundary: 60800,
+	// portRightBoundary: 60900
 });
 
 phantom.start(function(startErr) {
