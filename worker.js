@@ -10,7 +10,7 @@ var phantom = require("phantom-workers")({
 	  javascriptEnabled: false
 	},
 	timeout: 10000,
-	numberOfWorkers: 10
+	numberOfWorkers: 10,
 	portLeftBoundary: 8080,
 	portRightBoundary: 8081
 });
