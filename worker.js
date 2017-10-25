@@ -12,7 +12,7 @@ var phantom = require("phantom-workers")({
 	timeout: 10000,
 	numberOfWorkers: 10
 	portLeftBoundary: 8080,
-	portRightBoundary: 8080
+	portRightBoundary: 8081
 });
 
 phantom.start(function(startErr) {
